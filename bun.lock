@@ -1,0 +1,13 @@
+{
+  "lockfileVersion": 1,
+  "configVersion": 1,
+  "workspaces": {
+    "": {},
+    "v1": {
+      "name": "@inference-provider-registry/v1",
+    },
+  },
+  "packages": {
+    "@inference-provider-registry/v1": ["@inference-provider-registry/v1@workspace:v1"],
+  }
+}

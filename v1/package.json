@@ -2,7 +2,8 @@
   "name": "@inference-provider-registry/v1",
   "type": "module",
   "scripts": {
-    "build": "bun build.js"
+    "build": "bun build.js",
+    "update-models": "bun update-models.mjs"
   },
   "files": [
     "providers",

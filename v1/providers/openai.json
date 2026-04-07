@@ -1,0 +1,67 @@
+{
+  "$schema": "./schema.json",
+  "name": {
+    "zh-CN": "OpenAI",
+    "en": "OpenAI"
+  },
+  "description": {
+    "zh-CN": "OpenAI API 提供最先进的 AI 模型",
+    "en": "OpenAI API provides state-of-the-art AI models."
+  },
+  "docs": {
+    "zh-CN": "https://platform.openai.com/docs",
+    "en": "https://platform.openai.com/docs"
+  },
+  "dashboard": "https://platform.openai.com/",
+  "endpoints": {
+    "default": {
+      "openai": "https://api.openai.com/v1"
+    }
+  },
+  "models": {
+    "codex-mini-latest": {},
+    "gpt-3.5-turbo": {},
+    "gpt-4": {},
+    "gpt-4-turbo": {},
+    "gpt-4.1": {},
+    "gpt-4.1-mini": {},
+    "gpt-4.1-nano": {},
+    "gpt-4o": {},
+    "gpt-4o-2024-05-13": {},
+    "gpt-4o-2024-08-06": {},
+    "gpt-4o-2024-11-20": {},
+    "gpt-4o-mini": {},
+    "gpt-5": {},
+    "gpt-5-chat-latest": {},
+    "gpt-5-codex": {},
+    "gpt-5-mini": {},
+    "gpt-5-nano": {},
+    "gpt-5-pro": {},
+    "gpt-5.1": {},
+    "gpt-5.1-chat-latest": {},
+    "gpt-5.1-codex": {},
+    "gpt-5.1-codex-max": {},
+    "gpt-5.1-codex-mini": {},
+    "gpt-5.2": {},
+    "gpt-5.2-chat-latest": {},
+    "gpt-5.2-codex": {},
+    "gpt-5.2-pro": {},
+    "gpt-5.3-chat-latest": {},
+    "gpt-5.3-codex": {},
+    "gpt-5.3-codex-spark": {},
+    "gpt-5.4": {},
+    "gpt-5.4-mini": {},
+    "gpt-5.4-nano": {},
+    "gpt-5.4-pro": {},
+    "o1": {},
+    "o1-mini": {},
+    "o1-preview": {},
+    "o1-pro": {},
+    "o3": {},
+    "o3-deep-research": {},
+    "o3-mini": {},
+    "o3-pro": {},
+    "o4-mini": {},
+    "o4-mini-deep-research": {}
+  }
+}
