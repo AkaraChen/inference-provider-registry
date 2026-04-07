@@ -13,6 +13,10 @@
       "openai": "https://coding.dashscope.aliyuncs.com/v1"
     }
   },
+  "docs": {
+    "zh-CN": "https://help.aliyun.com/zh/model-studio/coding-plan"
+  },
+  "dashboard": "https://bailian.console.aliyun.com/cn-beijing?tab=coding-plan#/efm/coding-plan-detail",
   "models": {
     "qwen3.5-plus": {},
     "qwen3-max-2026-01-23": {},

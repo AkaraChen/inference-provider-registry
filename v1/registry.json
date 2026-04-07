@@ -14,6 +14,10 @@
         "openai": "https://coding.dashscope.aliyuncs.com/v1"
       }
     },
+    "docs": {
+      "zh-CN": "https://help.aliyun.com/zh/model-studio/coding-plan"
+    },
+    "dashboard": "https://bailian.console.aliyun.com/cn-beijing?tab=coding-plan#/efm/coding-plan-detail",
     "models": {
       "qwen3.5-plus": {},
       "qwen3-max-2026-01-23": {},
@@ -34,6 +38,10 @@
       "zh-CN": "方舟 Coding Plan 是为开发者量身定制的订阅服务，助力高效编码开发。",
       "en": "The Ark Coding Plan is a subscription service tailored for developers, designed to enhance efficient coding development."
     },
+    "docs": {
+      "zh-CN": "https://www.volcengine.com/docs/82379/1925115?lang=zh"
+    },
+    "dashboard": "https://console.volcengine.com/ark/region:ark+cn-beijing/openManagement?LLM=%7B%7D&advancedActiveKey=subscribe",
     "endpoints": {
       "default": {
         "anthropic": "https://ark.cn-beijing.volces.com/api/coding/v1",

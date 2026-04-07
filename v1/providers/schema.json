@@ -22,6 +22,20 @@
       },
       "additionalProperties": { "type": "string" }
     },
+    "dashboard": {
+      "type": "string",
+      "format": "uri",
+      "description": "Dashboard URL"
+    },
+    "docs": {
+      "type": "object",
+      "description": "Documentation URL in multiple languages",
+      "properties": {
+        "zh-CN": { "type": "string", "format": "uri" },
+        "en": { "type": "string", "format": "uri" }
+      },
+      "additionalProperties": { "type": "string", "format": "uri" }
+    },
     "endpoints": {
       "type": "object",
       "description": "API endpoints for different environments",
