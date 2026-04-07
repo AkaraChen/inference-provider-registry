@@ -1,0 +1,11 @@
+{
+  "name": "@inference-provider-registry/v1",
+  "type": "module",
+  "scripts": {
+    "build": "bun build.js"
+  },
+  "files": [
+    "providers",
+    "registry.json"
+  ]
+}

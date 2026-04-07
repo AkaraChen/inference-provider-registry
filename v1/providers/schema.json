@@ -1,0 +1,51 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "required": ["name", "endpoints", "models"],
+  "properties": {
+    "name": {
+      "type": "object",
+      "description": "Provider name in multiple languages",
+      "required": ["zh-CN", "en"],
+      "properties": {
+        "zh-CN": { "type": "string" },
+        "en": { "type": "string" }
+      },
+      "additionalProperties": { "type": "string" }
+    },
+    "description": {
+      "type": "object",
+      "description": "Provider description in multiple languages",
+      "properties": {
+        "zh-CN": { "type": "string" },
+        "en": { "type": "string" }
+      },
+      "additionalProperties": { "type": "string" }
+    },
+    "endpoints": {
+      "type": "object",
+      "description": "API endpoints for different environments",
+      "patternProperties": {
+        "^[a-zA-Z0-9_-]+$": {
+          "type": "object",
+          "description": "Environment-specific endpoints",
+          "properties": {
+            "anthropic": { "type": "string", "format": "uri" },
+            "openai": { "type": "string", "format": "uri" }
+          },
+          "additionalProperties": { "type": "string", "format": "uri" }
+        }
+      }
+    },
+    "models": {
+      "type": "object",
+      "description": "Supported models",
+      "patternProperties": {
+        "^[a-zA-Z0-9._-]+$": {
+          "type": "object",
+          "description": "Model configuration"
+        }
+      }
+    }
+  }
+}
