@@ -1,0 +1,25 @@
+{
+  "$schema": "./schema.json",
+  "name": {
+    "zh-CN": "Kimi Code",
+    "en": "Kimi Code"
+  },
+  "description": {
+    "zh-CN": "Kimi Code API 为开发者提供强大的代码生成和补全能力，助力高效编程开发。",
+    "en": "Kimi Code API provides powerful code generation and completion capabilities for developers to enhance efficient coding development."
+  },
+  "docs": {
+    "zh-CN": "https://www.kimi.com/code/docs/",
+    "en": "https://www.kimi.com/code/docs/"
+  },
+  "dashboard": "https://www.kimi.com/code/docs/",
+  "endpoints": {
+    "default": {
+      "anthropic": "https://api.kimi.com/coding",
+      "openai": "https://api.kimi.com/coding/v1"
+    }
+  },
+  "models": {
+    "kimi-for-coding": {}
+  }
+}
