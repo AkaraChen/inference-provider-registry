@@ -28,6 +28,16 @@ jobs:
           if git diff --cached --quiet; then
             echo "No changes to commit"
           else
-            git commit -m "chore: update models $(date +%Y-%m-%d)"
+            DATE=$(date +%Y-%m-%d)
+            git commit -m "chore: update models $DATE"
             git push
+            TAG="v$DATE"
+            # If a tag for today already exists, append a counter
+            COUNTER=1
+            while git ls-remote --tags origin "$TAG" | grep -q "$TAG"; do
+              TAG="v${DATE}-${COUNTER}"
+              COUNTER=$((COUNTER + 1))
+            done
+            git tag "$TAG"
+            git push origin "$TAG"
           fi
