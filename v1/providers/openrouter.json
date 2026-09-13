@@ -112,6 +112,8 @@
     "inclusionai/ling-3.0-flash-sante:free": {},
     "inclusionai/ling-3.0-flash-vl": {},
     "inclusionai/ling-3.0-flash-vl:free": {},
+    "inference-net/schematron-v2-small": {},
+    "inference-net/schematron-v2-turbo": {},
     "kwaipilot/kat-coder-pro-v2": {},
     "kwaipilot/kat-coder-pro-v2.5": {},
     "liquid/lfm-2.5-2.6b:free": {},
