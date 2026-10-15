@@ -339,7 +339,6 @@
     "thinkingmachines/inkling-small": {},
     "thinkingmachines/inkling-small:free": {},
     "thinkingmachines/inkling:free": {},
-    "unbiased/pareto": {},
     "unbiased/pareto-26.10-preview": {},
     "unbiased/pareto-26.9": {},
     "undi95/remm-slerp-l2-13b": {},
@@ -390,6 +389,7 @@
     "~openai/gpt-mini-latest": {},
     "~openai/gpt-sol-latest": {},
     "~openai/gpt-terra-latest": {},
+    "~unbiased/pareto-latest": {},
     "~x-ai/grok-latest": {},
     "~z-ai/glm-flash-latest": {},
     "~z-ai/glm-latest": {}
